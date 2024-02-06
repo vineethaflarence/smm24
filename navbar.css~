@@ -1,0 +1,146 @@
+.navbar-nav>li>a {
+  text-transform: uppercase;
+}
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color: rgba(0,0,0,0);
+}
+.navbar-light .navbar-brand {
+    color: #3A1488;;
+    font-size:33px;
+    font-weight:400;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #ffffff;;
+    font-weight:500;
+    font-size:15px;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    font-weight:500;
+    font-size:15px;
+    color:#000000;
+}
+.navbar-light .navbar-nav .nav-link {
+    font-weight:300;
+    font-size:15px;
+    color:#000000;
+}
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color:#ffffff;
+}
+.navbar-brand small {
+  display:block;
+  font-size:12px;
+  font-weight:300;
+  line-height:20px;
+}
+
+
+
+
+
+/* --------------------------- Old Navbar css ----------------------------*/
+.mainnav {
+  position: relative;
+  width:100%;
+  padding-right: 0px; 
+  padding-left: 0px;
+}
+.menu-navbar{
+	background:#313131 ;
+}
+
+.navbar.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 998;
+  margin: 0!important;
+}
+
+.navbar {
+  border: 0;
+  border-radius: 0;
+  margin: 0;
+  backface-visibility: hidden !important;
+}
+
+.navbar-default .navbar-nav>li>a {
+  padding: 15px 18px;
+  color:white;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Verdana', sans-serif;
+}
+
+.navbar-default .navbar-nav>li>a:hover, 
+.navbar-default .navbar-nav>li>a:focus {
+  color:white;
+  background-color: #BB1924;
+}
+
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:hover, 
+.navbar-default .navbar-nav>.active>a:focus {
+  /* color: #0e8ff9; */
+ /*  background-color: transparent; */
+ background-color: #BB1924;
+ color:white;
+}
+
+.navbar-default .navbar-nav>.open>a, 
+.navbar-default .navbar-nav>.open>a:hover, 
+.navbar-default .navbar-nav>.open>a:focus {
+  background-color: #BB1924;
+ color:white;
+}
+
+.navbar-default .navbar-nav>li:focus {
+  outline: none;
+}
+
+
+/*TOGGLE BUTTON*/
+
+.navbar-header {
+  position: absolute;
+  left: 0;
+  width: 100%;
+}
+
+.navbar-toggle {
+  position: absolute;
+  left: 0;
+ /*  display: block; */
+ /*  margin: 0; */
+ margin-left: 4%;
+  padding: 9px 18px;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 0;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #7b8a97;
+}
+
+.navbar-default .navbar-toggle:hover, 
+.navbar-default .navbar-toggle:focus {
+  background-color: inherit;
+  color: #fff;
+}
+.nav-margin{
+	margin-left:6.25% !important;
+	margin-right: 6.25% !important;"
+}
+
+
+
+

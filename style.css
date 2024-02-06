@@ -1,0 +1,1153 @@
+@charset "ISO-8859-1";
+
+/* DASHBOARD css */
+/* @charset "ISO-8859-1"; */
+/*------------------------------------------- Font Elements --------------------------------------*/
+/* roboto-300 - latin */
+@font-face {
+  font-family: "Calibri-light";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/calibril.ttf"); /* IE9 Compat Modes */
+}
+/* roboto-regular - latin */
+@font-face {
+  font-family: "Calibri";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/calibri.ttf");
+}
+/* roboto-500 - latin */
+@font-face {
+  font-family: "Calibri-bold";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/calibrib.ttf"); /* IE9 Compat Modes */
+}
+
+body {
+  font-family: "Calibri";
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  background-color: #f7f7f7;
+  color: #555;
+  -webkit-font-smoothing: antialiased !important;
+}
+#wrapper {
+  min-width: 1350px;
+}
+
+.calibri-regular {
+  font-family: "Calibri" !important;
+  font-weight: 400 !important;
+  /* Roboto light */
+}
+.cursorHand {
+  cursor: pointer;
+}
+a.disabled {
+  pointer-events: none !important;
+  cursor: not-allowed !important;
+  color: rgba(255, 255, 255, 0.3) !important;
+}
+.headerDiv {
+  padding: 2rem 0;
+  background: url(../img/background/2023/dublin.png), #0b182f;
+}
+
+/* ------------------------------- SMM 23 CSS Updates ---------------------*/
+.navbar {
+  background-color: #0b182f;
+  color: #ffffff;
+}
+
+.hdeaderTitle {
+  font-family: "Calibri-light";
+  font-size: 3rem;
+  color: #ffffff;
+  font-weight: 300;
+}
+.headerSubTitle {
+  font-family: "Calibri-light";
+  font-size: 25px;
+  font-weight: 300;
+  color: #ffffff;
+}
+.mb-subtext {
+  margin-bottom: 13rem !important;
+}
+/* ---------------------------------- KeyNote Speakers Section Start--------------------------- */
+.speakerSection {
+  background: url("../img/background/2023/speakerbg3.png") repeat;
+  padding: 3rem 8rem;
+}
+.speakerSectionInner {
+  padding: 0rem 7rem;
+}
+.speakerSectionHeading {
+  font-family: "Calibri-bold";
+  font-size: 50px;
+  color: #0b182f !important;
+  font-weight: 400;
+  text-decoration: none;
+}
+.speakerInner {
+  background-color: #ffffff;
+  border-radius: 12px;
+}
+.speakerHeading {
+  font-size: 23px;
+  color: #0b182f !important ;
+  text-decoration: none;
+  font-family: "Calibri";
+}
+.speakerSubHeading {
+  font-size: 16px;
+  color: #000000;
+  font-weight: 300;
+}
+.speakerPic {
+  padding: 3rem 3rem 3rem 4rem;
+  text-align: center;
+}
+.speakerText {
+  padding: 3rem 5rem 3rem 0rem;
+  font-family: "Calibri";
+  font-size: 17px;
+  color: #0b182f;
+  line-height: 1.5;
+}
+.speaker2Text {
+  padding: 1rem 2rem 2rem 4rem !important;
+}
+/* -----------------------------------------KeyNote Speakers Section End--------------------------- */
+
+/*-------------------------------- Home page CSS --------------------------------------*/
+
+.header_class {
+  background-size: cover;
+  color: #000000 !important;
+}
+.headerLeftPad {
+  padding-left: 5rem !important;
+}
+
+.hdeaderDate {
+  font-size: 1.25rem;
+  color: #3a1488;
+  margin-bottom: 26px;
+  padding-bottom: 70px;
+}
+
+.btn {
+  font-size: 16px;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+}
+.btn:focus {
+  outline: 0;
+  box-shadow: none !important;
+}
+.btnSubmit:hover {
+  background-color: #ba6bff;
+  color: #ffffff;
+}
+.btnRegistration {
+  background-color: #dead16;
+  border-color: #dead16;
+  color: #ffffff;
+  margin-left: 2px;
+}
+.btnRegistration:hover {
+  background-color: #efb80e;
+  color: #ffffff;
+}
+.btnCFP {
+  background-color: #e06918;
+  color: #ffffff;
+}
+.btnCFP:hover {
+  background-color: #f56f14;
+  color: #ffffff;
+}
+.btn-bottom-pad {
+  padding-bottom: 35px;
+}
+.tataLogo {
+  margin-right: 8px;
+}
+.tuLogo {
+  margin-left: 8px;
+}
+.speakerSection_home {
+  background: url("../img/background/2023/speakerbg.png") repeat;
+  padding: 3rem 8rem;
+  padding-bottom: 135px;
+}
+/* ---------------------------------------- Fonts sizes start ------------------------------  */
+.font-14px {
+  font-size: 14px !important;
+}
+
+.font-15px {
+  font-size: 14px;
+}
+
+.font-16px {
+  font-size: 16px !important;
+}
+
+.font-18px {
+  font-size: 18px;
+}
+.font-21px {
+  font-size: 21px;
+}
+.font-24px {
+  font-size: 24px !important;
+}
+/* ------------------------------------- text colors ----------------------- */
+.section-heading {
+  color: #0b182f !important;
+  font-size: 43px;
+  font-family: "Calibri-bold";
+}
+/* ---------------------------------------- Fonts sizes End ------------------------------  */
+.hr-top {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  border: 0;
+  border-top: 4px solid #f87131;
+}
+
+.img-radius {
+  border-radius: 50%;
+  max-height: 120px;
+}
+
+#venue-section {
+  background: #f2f2f2;
+  color: #333;
+}
+.venueHeading {
+  font-size: 40px;
+  color: #0b182f !important;
+}
+.venue-title {
+  font-size: 1.75rem;
+  color: #0b182f;
+  font-family: "Calibri-light";
+}
+.venueAdd {
+  font-size: 1.5rem;
+  color: #0b182f;
+  font-family: "Calibri-light";
+}
+.venueDate {
+  font-size: 1.5rem;
+  color: #0b182f;
+  font-family: "Calibri";
+}
+.container {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 0;
+}
+
+.bot-marg {
+  margin-bottom: 0px;
+}
+nav ul {
+  list-style: none !important;
+}
+
+.navbar-padding {
+  padding-right: 9px;
+  padding-left: 8px;
+}
+
+.image-container {
+  position: relative;
+  text-align: left;
+  color: #ffffff;
+  padding-right: 0px;
+}
+
+.centered-text {
+  position: absolute;
+  top: 50%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+}
+
+a[onclick] {
+  cursor: pointer;
+}
+
+.margin-p {
+  margin: 0;
+}
+
+.navbar-button {
+  color: #000000;
+}
+
+.section-margin {
+  margin-bottom: 2% !important;
+}
+
+.section-margin-top {
+  margin-top: 2%;
+}
+
+.section-padding {
+  padding-bottom: 2%;
+}
+
+.team-padding {
+  padding-bottom: 5%;
+}
+.team-pad {
+  padding-left: 220px !important;
+  padding-right: 220px !important;
+  padding-top: 40px;
+  padding-bottom: 3rem;
+}
+.committee-div {
+  background-color: white;
+  border-radius: 12px;
+  padding-right: 5rem !important;
+  padding-left: 5rem !important;
+}
+.team-marg {
+  margin-bottom: 0px;
+}
+.fa-disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.cursorDefault {
+  cursor: default !important;
+}
+
+/* show more and less in speakers */
+.visiblediv {
+  display: inline;
+}
+
+.impDateUl {
+  list-style-type: none;
+  -webkit-margin-before: 0px;
+  -webkit-margin-after: px;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 0px;
+  line-height: 20px;
+}
+
+.impDateLi {
+  line-height: 42px;
+}
+.hiddendiv {
+  display: none;
+}
+.interspeech-link,
+.interspeech-link:hover {
+  color: #000000 !important;
+}
+/*----------------------------------------------- Footer css -------------------------------------------*/
+.footer {
+  bottom: 0;
+  width: 100%;
+}
+.footer-css a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: Calibri;
+}
+
+.footer-css {
+  background-color: #0b182f;
+  color: #ffffff;
+}
+.footerSMM {
+  color: #3a1488;
+  font-size: 33px;
+  font-weight: 400;
+}
+.footer-icons {
+  vertical-align: right;
+}
+.footer-icons-table {
+  display: table !important;
+}
+.copyrightText {
+  color: #f3e4ff;
+  font-family: "Calibri-light";
+  font-size: 14px;
+}
+.organizedByText div {
+  line-height: 35px;
+}
+
+.back-to-top {
+  cursor: pointer;
+  position: fixed;
+  bottom: 60px;
+  right: 20px;
+  display: none;
+}
+
+.members-div {
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+.members-div a {
+  font-family: "Calibri-bold";
+  font-size: 22px;
+  color: #0b182f;
+  text-decoration: none;
+}
+.members-div p {
+  font-family: "Calibri";
+  font-size: 19px;
+  color: #0b182f;
+  margin-bottom: 2.2rem;
+}
+.navbar-marg-mob {
+  margin-top: 15%;
+}
+
+.back-top-icon {
+  background: url("../img/icons/to-top.png") no-repeat;
+  width: 55px;
+  height: 45px;
+  display: inline-block;
+}
+
+.btn-margin-xs {
+  margin-left: 40px;
+}
+
+/* -----------------------------------------Workshop Section --------------------------- */
+.workShopSection {
+  background-size: cover;
+  color: #000000 !important;
+}
+.workshopText {
+  font-weight: 300;
+  font-size: 17px;
+  color: #454648;
+  line-height: 1.5;
+}
+.workshopTitleText {
+  font-weight: 300;
+  font-size: 20px;
+  color: #0b182f;
+  line-height: 1.5;
+  font-family: calibri-light;
+}
+.workshopTitle {
+  font-size: 43px;
+  color: #0b182f;
+  font-family: calibri-bold;
+}
+.workshopContainer {
+  padding: 2rem 3rem;
+}
+.workshop-inner {
+  background-color: rgba(255, 255, 255);
+  border-radius: 10px;
+  border: 1px solid #f9f9f9;
+  padding: 4rem 8rem 4rem 8rem;
+}
+
+.btnRegisterNow:hover {
+  color: #ffffff;
+  background-color: #512792;
+}
+.top-bar {
+  padding: 7px 0;
+}
+
+.section-background {
+  background-color: #f7f7f7;
+}
+
+.schedule-image {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 10px;
+}
+.workshopDate {
+  font-size: 30px;
+  color: #afb6e4;
+}
+/* -----------------------------------------Workshop Section End--------------------------- */
+
+/* ---------------------------------- KeyNote Speakers Section Start--------------------------- */
+
+.speakerSectionHeading {
+  font-size: 43px;
+  color: #000000;
+  font-weight: 400;
+}
+.speakerHeading {
+  font-size: 24px;
+  color: #000000;
+}
+.speakerSubHeading {
+  font-size: 16px;
+  color: #000000;
+  font-weight: 300;
+}
+
+/* -----------------------------------------KeyNote Speakers Section End--------------------------- */
+
+/* ----------------------------------------- Important Dates Section Start--------------------------- */
+.impoDateSection {
+  /* background:url("../img/home/homepage-background---IMP-dates.png") no-repeat; 	
+  background-size: cover; */
+  background-color: #8514e8;
+}
+.impDatebg {
+  background: url("../img/background/2023/impDatebg.svg") no-repeat;
+  background-size: cover;
+  min-height: 21rem;
+}
+.datePad {
+  padding-left: 6rem !important;
+}
+.impoDateSectionHeading {
+  font-size: 43px;
+  color: #ffffff;
+  font-family: "Calibri-bold";
+}
+.dateText {
+  font-size: 50px;
+  font-weight: 400;
+  color: #fff9d3;
+  line-height: 50px;
+  font-family: "Calibri";
+}
+.monthText {
+  font-size: 21px;
+  font-weight: 300;
+  color: #fff9d3;
+  font-family: "Calibri";
+}
+.dateType {
+  font-size: 21px;
+  font-weight: 400;
+  color: #ffffff;
+  font-family: "Calibri";
+  text-transform: uppercase;
+}
+.ColsubDate {
+  color: #0eaace;
+}
+.ColAcceptDate {
+  color: #43d3b0;
+}
+.ColWorkshopDate {
+  color: #ffb62a;
+}
+.ColCameraReadyDate {
+  color: #22df4d;
+}
+.ColRegDeadDate {
+  color: #ed553b;
+}
+.programHead {
+  font-size: 30px;
+  color: #373f4a;
+  font-weight: 300;
+}
+.programText {
+  font-size: 20px;
+  color: #201b1b;
+  font-weight: 300;
+  line-height: 22px;
+}
+.programMarg {
+  margin-bottom: 6rem;
+}
+/* ----------------------------------------- Important Dates Section End--------------------------- */
+
+/*-------------------------------------------Register Section Starts -----------------------------  */
+.registerSection {
+  /* background-color:#F6F6F6 !important; */
+}
+.regProcText {
+  font-size: 17px;
+  font-weight: 500;
+  color: #525252;
+}
+.regCondn {
+  font-size: 19px;
+  font-weight: 300;
+  color: #2e2e2f;
+  line-height: 25px;
+}
+.greyRegistration {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+/*-------------------------------------------Register Section Ends -----------------------------  */
+
+/*---------------------------------- Registration page CSS -------------------------------- */
+
+.header_smm19 {
+  /* background: url("../img/home/Rectangle 808 copy.png") no-repeat; */
+  background-size: cover;
+  color: #ffffffd4 !important;
+}
+.sticky {
+  background-size: cover;
+  color: #ffffffd4 !important;
+  background-color: rgba(255, 255, 255, 1) !important;
+}
+.regBody {
+  /* background: url("../img/background/SMM21_speakerBg.png") no-repeat; */
+  background-size: cover;
+}
+.regImpText {
+  font-size: 20px;
+  color: #0b182f;
+  font-family: "Calibri-bold";
+}
+.registration-table {
+  margin-bottom: 20px;
+  width: 100%;
+}
+.registration-table th {
+  background-color: #0b182f;
+  font-weight: 400;
+  color: #ffffff;
+}
+table.registration-table td:first-child {
+  padding-left: 10px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #2c2b2b;
+}
+table.registration-table td {
+  padding-left: 10px;
+}
+
+table.registration-table th {
+  padding-left: 10px;
+}
+.regProcess {
+  font-size: 30px;
+  color: #2c2b2b;
+  font-weight: 400;
+}
+.regProcessLi li {
+  font-size: 20px;
+  color: #2c2b2b;
+  font-weight: 300;
+  margin-bottom: 10px;
+  list-style: none;
+}
+.noteText {
+  font-size: 20px;
+  color: #2c2b2b;
+  font-weight: 500;
+}
+/* --------------------------------- Registration page CSS Ends----------------------------------  */
+
+/*---------------------------------- Key note speaker page CSS -------------------------------- */
+.speakersBody {
+  /* background: url("../img/background/2023/speakerpageBg.svg") no-repeat; */
+  background-size: cover;
+  background-color: #e0e7f2;
+}
+.speakerTitlePos {
+  position: absolute;
+  bottom: 34px;
+}
+.invisible {
+  opacity: 0;
+}
+.visible {
+  opacity: 1;
+}
+.speakerTitle {
+  font-family: "Calibri-light";
+  font-size: 35px;
+}
+.paperTitle {
+  font-family: "Calibri-bold";
+  font-size: 22px;
+  color: #0b182f;
+}
+.paperText {
+  font-family: "Calibri";
+  font-size: 18px;
+  color: #0b182f;
+  line-height: 1;
+}
+.speakerInfo {
+  font-family: "Calibri-light";
+  font-size: 22px;
+}
+.col-spekers {
+  color: #0b182f !important;
+  text-decoration: none;
+}
+/*---------------------------------- Key note speaker page CSS Ends-------------------------------- */
+
+/*---------------------------------- Team page CSS -------------------------------- */
+.teamBody {
+  background: url("../img/background/2023/teambg.png") no-repeat;
+  /* background-color: #e0e7f2; */
+  background-size: cover;
+}
+.teamBottom {
+  background: url("../img/background/2023/teambgbottom.png") no-repeat;
+  min-height: 13rem;
+}
+/*---------------------------------- Team page CSS Ends-------------------------------- */
+
+/*---------------------------------- Call for papers page CSS -------------------------------- */
+.cfpBody {
+  /* background: url("../img/background/callForPaper.png") no-repeat; */
+  background-color: #ffffff;
+  background-size: cover;
+}
+.cfpBg {
+  background: url("../img/background/2023/cfpbg.png") no-repeat;
+  background-position-x: right;
+}
+.cfpHeading {
+  font-family: "Calibri-bold";
+  font-size: 50px;
+  color: #0b182f;
+}
+.cfpTitle {
+  font-size: 22px;
+  color: #0b182f;
+  font-family: "Calibri-light";
+}
+.cfp-list {
+  padding-left: 21px;
+}
+.cfp-list li {
+  font-size: 21px;
+  color: #2c2b2b;
+}
+.cfp-list li span {
+  font-size: 18px;
+  color: #0b182f;
+  font-weight: 400;
+  padding-left: 2rem;
+}
+.submissionText {
+  font-family: "Calibri";
+  font-size: 19px;
+  color: #0b182f;
+}
+/*---------------------------------- Call for papers page CSS -------------------------------- */
+
+/*---------------------------------- Gallery page CSS -------------------------------- */
+.galleryInfo {
+  text-align: center;
+  font-size: 21px;
+  margin: 15% 0;
+}
+.hrline {
+  margin: 10px 0;
+  overflow: hidden;
+  color: #0b182f;
+  text-align: left;
+  line-height: 1.6em;
+  font-size: 23px;
+  font-family: "Calibri";
+}
+
+.hrline:before {
+  display: block;
+  float: right;
+  margin-top: 0.75em; /* half the line-height */
+  border-top: 2px solid #afb7e4;
+  width: 87%;
+  content: "";
+}
+.galleryBg {
+  background: url("../img/background/2023/gallerybg.png") no-repeat;
+  background-position-x: left;
+}
+
+/*---------------------------------- Gallery page CSS Ends -------------------------------- */
+
+/*---------------------------------- Contact Us page CSS -------------------------------- */
+.contact_Us {
+  background: url("../img/background/2023/contactbg.svg") no-repeat;
+  background-size: cover;
+}
+.contactTitle {
+  font-size: 30px;
+  color: #2c2b2b;
+  font-weight: 400;
+}
+.contactSub {
+  font-size: 22px;
+  color: #0b182f;
+  font-weight: 400;
+  font-family: "Calibri";
+}
+.mail {
+  font-size: 20px;
+  color: #0b182f;
+  font-family: "Calibri";
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+}
+.contactName {
+  font-size: 20px;
+  color: #0b182f;
+  font-family: "Calibri-bold";
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+}
+.contactdiv {
+  min-height: 43.6vh;
+}
+.bt-0 {
+  border-top: 0px !important;
+}
+.pl-sixty {
+  padding-left: 60px !important;
+}
+/*---------------------------------- Contact Us page CSS Ends-------------------------------- */
+.btnSubmit {
+  background-color: #ba6bff;
+  border-color: #ba6bff;
+  color: #ffffff;
+  margin-bottom: 0px;
+  border-radius: 4px;
+  padding: 0.4rem 1rem;
+}
+.btnRegistration {
+  background-color: #dead16;
+  border-color: #dead16;
+  color: #ffffff;
+  margin-left: 17px;
+}
+/* .date-info-right-sm{
+	padding-left: 1%;
+	}
+	.date-info-left-sm{
+	padding-left: 12%;
+	} */
+.date-info-xs {
+  padding-left: 0;
+}
+.speaker1TitlePos {
+  position: relative;
+  padding-top: 230px;
+}
+.speaker2TextPos {
+  position: relative;
+  padding-top: 196px;
+}
+
+/*------------------------------------------------ Media Queries ---------------------------------------------------------*/
+
+/*  Extra small devices (portrait phones, less than 576px)
+ No media query since this is the default in Bootstrap
+
+ Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  .btnSubmit {
+    margin-left: 0px;
+    margin-bottom: 10px;
+  }
+  .pl-smm {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+  .headerLeftPad {
+    padding-left: 0.5rem !important;
+  }
+  .headerDiv {
+    padding: 0.5em 0;
+    background: url(../img/background/2023/dublin.png), #0b182f;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+  }
+  .minHeight {
+    min-height: 428px;
+  }
+  .zeroMarg {
+    margin: 0px;
+  }
+  .speaker1TitlePos {
+    position: inherit;
+    bottom: 34px;
+  }
+  .speaker2TextPos {
+    position: inherit;
+    top: 194px;
+  }
+  /* .speakerSection {
+    padding: 1rem 1rem;
+  } */
+  .workshop-inner {
+    padding: 1rem;
+  }
+  .speakerSectionInner {
+    padding: 0 1rem;
+  }
+  .speakerPic {
+    padding: 3rem;
+  }
+  .impDatebg {
+    min-height: 0px;
+  }
+  .datePad {
+    padding-left: 1.5rem !important;
+  }
+  .speakerText {
+    padding: 0rem 1rem 2rem 0rem;
+  }
+  .speaker2Text {
+    padding: 0rem 1rem 2rem 1rem !important;
+  }
+  .cfp-list li span {
+    padding-left: 0rem;
+  }
+  /* .workshopTextDiv {
+    padding: 0 2rem;
+  } */
+}
+@media (min-width: 576px) {
+  .speaker-image {
+    margin-top: 20%;
+  }
+  .navbar-marg-mob {
+    margin-top: unset;
+  }
+  .team-col-border {
+    border-right: 1px solid lightgray;
+  }
+  .btn-margin-xs {
+    margin-left: 40px;
+  }
+  .date-info-xs {
+    padding-left: 0;
+  }
+  .btnSubmit {
+    margin-left: 0px;
+    margin-bottom: 10px;
+  }
+  .minHeight {
+    min-height: 428px;
+  }
+  .zeroMarg {
+    margin: 0px;
+  }
+  /* .workshopTextDiv {
+    padding: 0 2rem;
+  } */
+}
+
+/*  Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem 1.25rem 0.5rem;
+  }
+  .p-sm-15 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .minHeight {
+    min-height: 486px;
+  }
+  .organizedByText {
+    text-align: right;
+    font-size: 12px;
+  }
+  .registration-table-desk {
+    width: 90%;
+  }
+  .section-margin-imp {
+    margin-bottom: 2%;
+  }
+
+  .organizedByText div {
+    line-height: 60px;
+  }
+
+  .col-sm-impDate {
+    width: 6.33333333%;
+  }
+  .btn-margin-xs {
+    margin-left: 40px;
+  }
+  .pl-smm {
+    padding-left: 60px !important;
+    padding-right: 60px !important;
+  }
+  /* .workshopTextDiv {
+    padding: 0 8rem 4rem 8rem;
+  } */
+}
+
+/*  Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .organizedByText {
+    /* padding-right: 0px; */
+    text-align: right;
+    font-size: 12px;
+  }
+  .organizedByText div {
+    line-height: 60px;
+  }
+  .btn-margin-xs {
+    margin-left: 10px;
+  }
+
+  .date-info-right-sm {
+    padding-left: 1%;
+  }
+  .date-info-left-sm {
+    padding-left: 12%;
+  }
+  .workshop-date-sm {
+    padding-left: 12px;
+  }
+}
+/* 
+ Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .organizedByText {
+    /* padding-right: 0px; */
+    text-align: right;
+    font-size: 12px;
+  }
+  .organizedByText div {
+    line-height: 60px;
+  }
+  .btn-margin-xs {
+    margin-left: 10px;
+  }
+  .date-info-right-sm {
+    padding-left: 1%;
+  }
+  .date-info-left-sm {
+    padding-left: 12%;
+  }
+  .workshop-date-sm {
+    padding-left: 12px;
+  }
+}
+
+/* ----------------------------------------------------Popup------------------------------------------------------ */
+.panel-overview {
+  margin-bottom: 18px;
+  background-color: #fff;
+  /*  border: 1px solid transparent; */
+  border-radius: 4px;
+}
+.panel-titleSection {
+  color: inherit;
+  margin-bottom: 0;
+  padding: 8px 15px 8px;
+  min-height: 48px;
+  font-size: 16px !important;
+}
+
+.panel-content {
+  background-color: #ffffff;
+  color: inherit;
+  padding: 15px 20px 20px 20px;
+  border-color: #e7eaec;
+  border-image: none;
+  border-width: 1px 0;
+}
+
+.isDisabled {
+  cursor: not-allowed !important;
+  opacity: 0.5;
+}
+.isDisabled > a {
+  color: currentColor;
+  display: inline-block; /* For IE11/ MS Edge bug */
+  pointer-events: none;
+  text-decoration: none;
+}
+/* ---------------------------------------------------- Program Table css ------------------------------------------------------ */
+.programbg {
+  background: url("../img/background/2023/programbg.png") no-repeat;
+  background-position-y: bottom;
+}
+.programTime {
+  color: #0b182f;
+  font-family: "Calibri";
+  font-size: 25px;
+}
+.sessionTitle {
+  font-size: 25px !important;
+  font-family: "Calibri-light";
+}
+.programTable {
+  margin-bottom: 2rem;
+}
+.programTable thead tr th {
+  line-height: 25px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 12px;
+  background: #e7e7fe;
+  border: 1px solid #bdbbbb !important;
+}
+.programTable tr {
+  line-height: 22px;
+}
+.programTable tr td:nth-child(2) {
+  padding: 12px 37px;
+}
+/* .programTable tr td:nth-child(2) {
+  text-align: center;
+} */
+.subtopic td {
+  border-bottom: 0.5px solid #f9f9f9;
+  border-top: 0.5px solid #f9f9f9;
+}
+.timeSlot {
+  min-width: 155px;
+}
+.informationCard {
+  border: 0px;
+  padding-bottom: 0.25rem !important;
+  padding-top: 0.25rem !important;
+}
+.profPad {
+  padding-left: 2.3rem;
+}
+.bgInherit {
+  background: inherit !important;
+}
+.imgGallery a {
+  margin-bottom: 1.6rem;
+}
+.bottom_bg {
+  /* background: url(../img/background/bottom_Bg.png) no-repeat; */
+  background-size: cover;
+  color: #000000 !important;
+}
+.archivebg {
+  background: url("../img/background/2023/archivebg.png") no-repeat;
+  /* background-position-y: bottom; */
+  background-size: cover;
+}
+.archive-pb {
+  padding-bottom: 9rem;
+}

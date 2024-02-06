@@ -1,0 +1,1099 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 30px;
+	background-color: #F7F7F7;
+	color: #555;
+	/* -webkit-font-smoothing: antialiased !important;
+	background:url("../img/background.png") no-repeat; 
+	background-size: cover; */
+}
+
+/* DASHBOARD css */
+@CHARSET "ISO-8859-1";
+/*------------------------------------------- Font Elements --------------------------------------*/
+/* roboto-300 - latin */
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	src: url('../fonts/roboto-v18-latin-300.eot'); /* IE9 Compat Modes */
+	src: local('Roboto Light'), local('Roboto-Light'),
+		url('../fonts/roboto-v18-latin-300.eot?#iefix')
+		format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/roboto-v18-latin-300.woff2') format('woff2'),
+		/* Super Modern Browsers */
+       url('../fonts/roboto-v18-latin-300.woff') format('woff'),
+		/* Modern Browsers */
+       url('../fonts/roboto-v18-latin-300.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+       url('../fonts/roboto-v18-latin-300.svg#Roboto') format('svg');
+	/* Legacy iOS */
+}
+/* roboto-regular - latin */
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/roboto-v18-latin-regular.eot');
+	/* IE9 Compat Modes */
+	src: local('Roboto'), local('Roboto-Regular'),
+		url('../fonts/roboto-v18-latin-regular.eot?#iefix')
+		format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/roboto-v18-latin-regular.woff2') format('woff2'),
+		/* Super Modern Browsers */
+       url('../fonts/roboto-v18-latin-regular.woff') format('woff'),
+		/* Modern Browsers */
+       url('../fonts/roboto-v18-latin-regular.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+       url('../fonts/roboto-v18-latin-regular.svg#Roboto') format('svg');
+	/* Legacy iOS */
+}
+/* roboto-500 - latin */
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	src: url('../fonts/roboto-v18-latin-500.eot'); /* IE9 Compat Modes */
+	src: local('Roboto Medium'), local('Roboto-Medium'),
+		url('../fonts/roboto-v18-latin-500.eot?#iefix')
+		format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/roboto-v18-latin-500.woff2') format('woff2'),
+		/* Super Modern Browsers */
+       url('../fonts/roboto-v18-latin-500.woff') format('woff'),
+		/* Modern Browsers */
+       url('../fonts/roboto-v18-latin-500.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+       url('../fonts/roboto-v18-latin-500.svg#Roboto') format('svg');
+	/* Legacy iOS */
+}
+/* roboto-700 - latin */
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	src: url('../fonts/roboto-v18-latin-700.eot'); /* IE9 Compat Modes */
+	src: local('Roboto Bold'), local('Roboto-Bold'),
+		url('../fonts/roboto-v18-latin-700.eot?#iefix')
+		format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/roboto-v18-latin-700.woff2') format('woff2'),
+		/* Super Modern Browsers */
+       url('../fonts/roboto-v18-latin-700.woff') format('woff'),
+		/* Modern Browsers */
+       url('../fonts/roboto-v18-latin-700.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+       url('../fonts/roboto-v18-latin-700.svg#Roboto') format('svg');
+	/* Legacy iOS */
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 30px;
+	background-color: #F7F7F7;
+	color: #555;
+	-webkit-font-smoothing: antialiased !important;
+	#background:url("../img/background.png") no-repeat; 
+	#background:url("../img/background/Pattern.png") no-repeat;
+	background-size: cover;
+}
+#wrapper{
+	min-width:1350px;
+}
+
+.roboto-light {
+	font-family: 'Roboto', sans-serif !important;
+	font-weight: 300 !important;
+	/* Roboto light */
+}
+
+.roboto-regular {
+	font-family: 'Roboto', sans-serif !important;
+	font-weight: 400 !important;
+	/* Roboto light */
+}
+
+.roboto-medium {
+	font-family: 'Roboto', sans-serif !important;
+	font-weight: 500;
+	/* Roboto Medium */
+}
+
+.roboto-bold {
+	font-family: 'Roboto', sans-serif !important;
+	font-weight: 700;
+	/* Roboto Bold */
+}
+.cursorHand{
+	cursor: pointer;	
+}
+a.disabled {
+  pointer-events: none !important;
+  cursor: not-allowed !important;
+  color:rgba(255, 255, 255, 0.3) !important;
+}
+/* span {
+    display: inline-block;
+} */
+/*-------------------------------- Home page CSS --------------------------------------*/
+
+.header_class{
+	background:url("../img/background/Pattern.png") no-repeat; 
+	background-size: cover;
+	color:#000000 !important;
+}
+.headerDiv{
+	padding:35px 0;
+}
+.hdeaderTitle{
+	font-size:60px;
+	color:#000000;
+	font-weight:500;
+}
+.headerSubTitle{
+	font-size:30px;
+	font-weight:300;
+	color:#000000;
+}
+.hdeaderDate{
+	font-size:20px;
+	color:#3A1488;
+	margin-bottom:55px;
+}
+.mb-subtext{
+	margin-bottom:38px;
+}
+
+.btn {
+	font-size:19px;
+	border-radius: 10px;
+	padding: .5rem 1rem;
+}
+.btn:focus {
+    outline: 0;
+     box-shadow: none !important;
+}
+.btnSubmit{
+	background-color:#3B2262;
+	border-color: #3B2262;
+	color:#FFFFFF;
+	margin-right: 0px;
+	margin-bottom:10px;
+}
+.btnSubmit:hover{
+	background-color:#3B2262;
+	color:#FFFFFF;
+}
+.btnRegistration{
+	background-color:#dead16;
+	border-color: #dead16;
+	color:#ffffff;
+	margin-left: 2px;
+}
+.btnRegistration:hover{
+	background-color:#efb80e;
+	color:#ffffff;
+}
+.btnCFP{
+	background-color:#e06918;
+	color:#ffffff;
+}
+.btnCFP:hover{
+	background-color:#f56f14;
+	color:#ffffff;
+}
+.btn-bottom-pad{
+	padding-bottom: 35px;
+}
+.tataLogo{
+	margin-right:8px;
+}
+.tuLogo{
+	margin-left:8px;
+}
+/* ---------------------------------------- Fonts sizes start ------------------------------  */
+/* h2 Title */
+.title-h2 {
+	margin-top: 7px;
+	font-size: 20px;
+	color: #000000;
+}
+/* h4 Title */
+.title-h4 {
+	font-size: 14px;
+	color: #000000;
+}
+/*font-14px  */
+.font-14px {
+	font-size: 14px;
+}
+
+.font-15px {
+	font-size: 14px;
+}
+
+
+.font-16px {
+	font-size: 16px !important;
+}
+
+.font-18px {
+	font-size: 18px;
+}
+.font-21px{
+	font-size:21px;
+}
+.font-24px{
+	font-size: 24px !important;
+	
+}
+/* ------------------------------------- text colors ----------------------- */
+.title-font-color {
+	color: #BB1924;
+}
+.col-white{
+	color:#000000 !important;
+}
+.col-spekers{
+	color:#323232;
+}
+
+.section-heading {
+	color: #585858 !important;
+	font-size: 22px;
+}
+/* ---------------------------------------- Fonts sizes End ------------------------------  */
+#description-section {
+	#background:url("../img/background/background-img.png") no-repeat; 
+	background:url("../img/background/Pattern.png") no-repeat; 
+	/* background: url("../img/background/background-img-018.png") no-repeat; */
+	background-size: cover;
+	text-align: left;
+}
+
+.hr-top {
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+	border: 0;
+	border-top: 4px solid #F87131;
+}
+
+.img-radius {
+	border-radius: 50%;
+	max-height: 120px;
+}
+
+/* .keynote-speaker-section {
+	background: #BB1924;
+	color: #ffffff;
+} */
+
+#venue-section {
+	background: #f2f2f2;
+	color: #333
+}
+
+
+.bot-marg{
+	margin-bottom: 0px;
+}
+nav ul {
+	list-style: none !important;
+}
+
+.navbar-padding {
+	padding-right: 9px;
+	padding-left: 8px;
+}
+
+.image-container {
+	position: relative;
+	text-align: left;
+	color: #ffffff;
+	padding-right: 0px;
+}
+
+.centered-text {
+	position: absolute;
+	top: 50%;
+	left: 52%;
+	transform: translate(-50%, -50%);
+}
+
+a[onclick] {
+	cursor: pointer
+}
+#downloadCfP:hover,#downloadCfP:focus{
+	    background-color: inherit;
+	    color:#000000 !important;
+}
+
+#downloadCfP {
+    text-transform: none;
+    color:#000000 !important;
+}
+#downloadCfP:hover{
+	border: 1px solid #ccc !important;
+    border-radius: 4px;
+}
+.margin-p {
+	margin: 0;
+}
+
+.navbar-button {
+	color: #000000;
+}
+
+.section-margin {
+	margin-bottom: 2% !important;
+}
+
+.section-margin-top {
+	margin-top: 2%;
+}
+
+.section-padding {
+	padding-bottom: 2%;
+}
+
+.team-padding {
+	padding-bottom: 5%;
+}
+
+.team-marg{
+	    margin-bottom: 0px;
+}
+.fa-disabled {
+	opacity: 0.6;
+	cursor: default;
+}
+
+.cursorDefault {
+	cursor: default !important;
+}
+
+.impDateHeading {
+	color: #BB1924;
+	font-size: 18px;
+}
+/* show more and less in speakers */
+.visiblediv {
+	display: inline;
+}
+
+.impDateUl {
+	list-style-type: none;
+	-webkit-margin-before: 0px;
+	-webkit-margin-after: px;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	-webkit-padding-start: 0px;
+	 line-height: 20px;
+}
+
+.impDateLi{
+	line-height: 42px;
+}
+.hiddendiv {
+	display: none;
+}
+.interspeech-link, .interspeech-link:hover{
+	color:#000000 !important;
+}
+/*----------------------------------------------- Footer css -------------------------------------------*/
+.footer {
+	bottom: 0;
+	width: 100%
+}
+
+.footer-css {
+	background: #FFFFFF91;
+	color: #6C6C6C;
+}
+
+.footer-icons{
+	vertical-align: right;
+}
+.footer-icons-table{
+	    display: table !important;
+}
+.social-links{
+		display: inline-flex;
+}
+.social-links li a i {
+	color: #000;
+	display: inline-flex;
+	width: 30px;
+	height: 30px;
+	font-size: 12px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 50%;
+}
+
+.social-links li a .fa {
+	background: #0e8ff9;
+	color: #fff;
+}
+.organizedByText {
+	/* padding-right: 0px; */
+	text-align: right;
+	font-size: 10px;
+}
+
+.organizedByText div {
+	line-height: 35px;
+}
+
+.back-to-top {
+	cursor: pointer;
+	position: fixed;
+	bottom: 60px;
+	right: 20px;
+	display: none;
+}
+
+#back-to-top:hover {
+	border-color: #F05828 !important;
+}
+
+.members-div {
+	line-height: 20px;
+	margin-bottom: 20px;
+}
+.navbar-marg-mob {
+	margin-top: 15%;
+}
+
+
+.facebook-icon {
+  background: url("../img/icons/facebook.png") no-repeat;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+}
+/* 
+.facebook-icon:hover {
+  background: url("../img/icons/facebook-hover.png") no-repeat;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+} */
+
+.twitter-icon {
+  background: url("../img/icons/twitter.png") no-repeat;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+}
+
+/* .twitter-icon:hover {
+  background: url("../img/icons/twitter-hover.png") no-repeat;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+} */
+.back-top-icon{
+	 background: url("../img/icons/to-top.png") no-repeat;
+	 width: 55px;
+  height: 45px;
+  display: inline-block;
+}
+
+
+.linkedin-icon {
+  background: url("../img/icons/in.png") no-repeat;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+}
+
+.btn-margin-xs{
+	margin-left:40px
+}
+
+
+/* -----------------------------------------Workshop Section --------------------------- */
+
+.workShopSection{
+	#background:url("../img/home/homepage-workshop.png") no-repeat; 
+	#background:url("../img/background/Pattern.png") no-repeat; 
+	#background-size: cover;
+	#padding:90px 0 72px;
+}
+.workshopText{
+	font-weight:300;
+	font-size:20px;
+	color:#201b1b;
+}
+.workshopTextDiv{
+	padding-bottom:30px;
+}
+.workshopTitle{
+	font-size:46px;
+	color:#413c4a;
+	padding: 20px 0;
+}
+.btnRegisterNow{
+	background-color:#3b2262;
+	border-color: #3b2262;
+	font-weigh:300;
+	color:#ffffff;
+	font-size:20px;
+}
+.btnRegisterNow:hover{
+	color:#ffffff;
+	background-color: #512792;
+}
+}
+h2 {
+	color: #343434;
+	font-weight: 700;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.top-bar {
+	padding: 7px 0;
+}
+
+.section-background {
+	background-color: #F7F7F7;
+}
+
+
+.schedule-image {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 10px;
+}
+
+.speaker-image {
+	margin-top: 6%;
+}
+
+.navbar {
+	-webkit-backface-visibility: hidden;
+}
+
+/* -----------------------------------------Workshop Section End--------------------------- */
+
+
+/* ----------------------------------------- KeyNote Speakers Section Start--------------------------- */	
+.speakerSection{
+ #background:url("../img/home/homepage-background---keynote-speaker.png") no-repeat; 
+ #background-size: cover;
+}
+.speakerSectionHeading{
+	font-size:35px;
+	color:#ffffff;
+	font-weight:300;
+}
+.speakerHeading{
+	font-size:24px;
+	color:#ffffff;	
+}
+.speakerSubHeading{
+	font-size:16px;
+	color:#ffffff;
+	font-weight:300;	
+}
+.contentBottom{
+	position:absolute;
+	bottom:0;
+}
+p.visiblediv{
+	font-size:16px;
+	font-weight:400;
+	color:#323232;
+}
+.personaImg{
+	width: 318px;
+    height: 361px;
+}
+.circularImg{
+	border-radius:50%;
+}
+.span-block{
+	white-space: nowrap;
+    display: block;
+    line-height: 20px;
+}
+/* -----------------------------------------KeyNote Speakers Section End--------------------------- */	
+
+/* ----------------------------------------- Important Dates Section Start--------------------------- */	
+.impoDateSection{
+	#background:url("../img/home/homepage-background---IMP-dates.png") no-repeat; 	
+	#background-size: cover;
+}
+.impoDateSectionHeading{
+	font-size:40px;
+	color:#373f4a;
+	font-weight:300;
+}
+.dateText{
+	font-size:40px;
+	font-weight:400;
+	line-height: 50px;
+}
+.monthText{
+	font-size:27px;
+	font-weight:300;
+	color:#373f4a;
+}
+.dateType{
+	font-size:17px;
+	font-weight:500;
+	color:#080908
+}
+.ColsubDate{
+	color:#0eaace;
+}
+.ColAcceptDate{
+	color:#43d3b0
+}
+.ColWorkshopDate{
+	color:#ffb62a;
+}
+.ColCameraReadyDate{
+	color:#22df4d;
+}
+.ColRegDeadDate{
+	color:#ed553b;
+}
+.programHead{
+	font-size:30px;
+	color:#373f4a;
+	font-weight:300;
+}
+.programText{
+	font-size:20px;
+	color:#201b1b;
+	font-weight:300;
+	line-height: 22px;
+}
+.programMarg{
+	margin-bottom: 6rem;
+}
+/* ----------------------------------------- Important Dates Section End--------------------------- */		
+
+
+/*-------------------------------------------Register Section Starts -----------------------------  */
+.registerSection{
+	background-color:#F6F6F6 !important;
+}
+.regProcText{
+	font-size:17px;
+	font-weight:500;
+	color:#525252;
+}
+.regCondn{
+	font-size:19px;
+	font-weight:300;
+	color:#2e2e2f;
+	line-height: 25px;
+}
+.greyRegistration{
+	opacity: 0.5;
+    cursor: not-allowed;
+}
+/*-------------------------------------------Register Section Ends -----------------------------  */
+
+
+/*---------------------------------- Registration page CSS -------------------------------- */
+
+.header_smm19{
+	background:url("../img/home/Rectangle 808 copy.png") no-repeat;
+	/* background-color:#903078; */
+	background-size: cover;
+	color:#FFFFFFD4 !important;
+}
+.sticky{
+	background:url("../img/home/Rectangle 808 copy.png") no-repeat;
+	background-size: cover;
+	color:#FFFFFFD4 !important;
+}
+.regBody{
+	#background:url("../img/background/SMM19_Registration-background.png") no-repeat;
+	background:url("../img/background/Pattern.png") no-repeat;
+	/* background-color:#903078; */
+	background-size: cover;
+	
+}
+.regImpText{
+	font-size:18px;
+	color:#2c2b2b;
+}
+.registration-table{
+    margin-bottom: 20px;
+        width: 100%;
+}
+.registration-table th{
+	background-color:#3e1176;
+	font-weight:400;
+	color:#ffffff;
+}
+table.registration-table td:first-child{
+	padding-left: 10px;
+	font-weight:500;
+	font-size:18px;
+	color:#2c2b2b;
+}
+table.registration-table td{
+	padding-left: 10px;
+}
+
+table.registration-table th{
+	padding-left: 10px;
+}
+.regProcess{
+	font-size:30px;
+	color:#2c2b2b;
+	font-weight:400;
+}
+.regProcessLi li {
+	font-size:20px;
+	color:#2c2b2b;
+	font-weight:300;
+	margin-bottom:10px;
+}
+.noteText{
+	font-size:20px;
+	color:#2c2b2b;
+	font-weight:500;
+}
+/* --------------------------------- Registration page CSS Ends----------------------------------  */
+
+
+/*---------------------------------- Key note speaker page CSS -------------------------------- */
+.speakersBody{
+	#background:url("../img/background/SMM19_Registration-background.png") no-repeat;
+	/* background-color:#903078; */
+	background-size: cover;
+	
+}
+.invisible{
+	opacity:0;
+}
+.visible{
+	opacity :1;
+}
+/*---------------------------------- Key note speaker page CSS Ends-------------------------------- */
+
+/*---------------------------------- Team page CSS -------------------------------- */
+.teamBody{
+	background:url("../img/background/SMM19_Team-background.png") no-repeat;
+	/* background-color:#903078; */
+	background-size: cover;
+	
+}
+/*---------------------------------- Team page CSS Ends-------------------------------- */
+
+
+/*---------------------------------- Call for papers page CSS -------------------------------- */
+.cfpBody{
+	background:url("../img/background/SMM19_Call-for-papers-background.png") no-repeat;
+	/* background-color:#903078; */
+	background-size: cover;
+	
+}
+.cfpTitle{
+	font-size:24px;
+	color:#2c2b2b;
+}
+.cfp-list{
+	padding-left: 21px;
+}
+.cfp-list li{
+	font-size:20px;
+	color:#2c2b2b;	
+}
+.cfp-list li span{
+	font-size:18px;
+	color:#2c2b2b;	
+	font-weight:300;
+}
+/*---------------------------------- Call for papers page CSS -------------------------------- */
+
+
+/*---------------------------------- Gallery page CSS -------------------------------- */
+.galleryInfo{
+	text-align: center;
+    font-size: 21px;
+    margin: 15% 0;
+}
+
+/*---------------------------------- Gallery page CSS Ends -------------------------------- */
+
+/*---------------------------------- Contact Us page CSS -------------------------------- */
+.contact_Us{
+	background:url("../img/background/SMM19_contact-background.png") no-repeat;
+	/* background-color:#903078; */
+	background-size: cover;
+	
+}
+.contactTitle{
+	font-size:30px;
+	color:#2c2b2b;
+	font-weight:400;
+}
+.contactSub{
+	font-size:18px;
+	color:#323232;
+	font-weight:400;
+}
+.mail{
+	font-size:18px;
+	color:#70a5c8;
+}
+.bt-0{
+	border-top:0px !important;
+}
+/*---------------------------------- Contact Us page CSS Ends-------------------------------- */
+
+
+/*------------------------------------------------ Media Queries ---------------------------------------------------------*/
+
+/*  Extra small devices (portrait phones, less than 576px)
+ No media query since this is the default in Bootstrap
+
+ Small devices (landscape phones, 576px and up) */
+ @media ( max-width : 576px) {
+	.btnSubmit {
+	margin-left:0px;
+	margin-bottom:10px;
+}
+.p-smm-0{
+		padding-left:0px;
+		padding-right:0px;
+	}
+	.minHeight{
+	min-height: 428px;
+}
+.zeroMarg{
+	margin: 0px;
+}
+}
+@media ( min-width : 576px) {
+	.speaker-image {
+		margin-top: 20%;
+	}
+	.navbar-marg-mob {
+		margin-top: unset;
+	}
+	.team-col-border {
+		border-right: 1px solid lightgray;
+	}
+	.btn-margin-xs{
+		margin-left:40px
+	}
+	.date-info-xs{
+		padding-left: 0;
+	}
+	.btnSubmit {
+	margin-left:0px;
+	margin-bottom:10px;
+}
+.minHeight{
+	min-height: 428px;
+}
+.zeroMarg{
+	margin: 0px;
+}
+}
+
+/*  Medium devices (tablets, 768px and up) */
+@media ( min-width : 768px) {
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 1rem;
+}
+.p-sm-15{
+	padding-left:15px;
+	padding-right:15px;
+}
+.pl-smm{
+	padding-left:31px !important;
+	padding-right:31px !important;
+}
+.minHeight{
+	min-height: 447px;
+}
+.organizedByText {
+	text-align: right;
+	font-size: 12px;
+}
+.registration-table-desk{
+	width:90%;
+}
+.section-margin-imp{
+	margin-bottom:2%;
+}
+
+.organizedByText div {
+	line-height: 60px;
+}
+
+.col-sm-impDate{
+	width: 6.33333333%;
+}
+.btn-margin-xs{
+	margin-left:40px}
+
+}
+.btnSubmit {
+    background-color: #3B2262;
+    border-color: #3B2262;
+    color: #FFFFFF;
+    margin-right: 17px;
+    margin-bottom:0px;
+}
+.btnRegistration{
+	background-color:#dead16;
+	border-color: #dead16;
+	color:#ffffff;
+	margin-left: 17px;
+}
+/* .date-info-right-sm{
+	padding-left: 1%;
+	}
+	.date-info-left-sm{
+	padding-left: 12%;
+	} */
+	.date-info-xs{
+		padding-left: 0;
+	}
+
+/*  Large devices (desktops, 992px and up) */
+@media ( min-width : 992px) {
+	.organizedByText {
+		/* padding-right: 0px; */
+		text-align: right;
+		font-size: 12px;
+	}
+	.organizedByText div {
+		line-height: 60px;
+	}
+	.btn-margin-xs{
+	margin-left:10px}
+	
+	.date-info-right-sm{
+	padding-left: 1%;
+	}
+	.date-info-left-sm{
+	padding-left: 12%;
+	}
+	.workshop-date-sm{
+	padding-left:12px}
+}
+/* 
+ Extra large devices (large desktops, 1200px and up) */
+@media ( min-width : 1200px) {
+	.organizedByText {
+		/* padding-right: 0px; */
+		text-align: right;
+		font-size: 12px;
+	}
+	.organizedByText div {
+		line-height: 60px;
+	}
+	.btn-margin-xs{
+	margin-left:10px}
+	.date-info-right-sm{
+	padding-left: 1%;
+	}
+	.date-info-left-sm{
+	padding-left: 12%;
+	}
+	.workshop-date-sm{
+	padding-left:12px}
+}
+
+/* ----------------------------------------------------Popup------------------------------------------------------ */
+.panel-overview {
+    margin-bottom: 18px;
+    background-color: #fff;
+   /*  border: 1px solid transparent; */
+    border-radius: 4px;
+}
+.panel-titleSection {
+    color: inherit;
+    margin-bottom: 0;
+    padding: 8px 15px 8px;
+    min-height: 48px;
+    font-size:16px !important;
+}
+
+.panel-content {
+    background-color: #ffffff;
+    color: inherit;
+    padding: 15px 20px 20px 20px;
+    border-color: #e7eaec;
+    border-image: none;
+    border-width: 1px 0;
+}
+
+.isDisabled {
+  cursor: not-allowed !important;
+  opacity: 0.5;
+}
+.isDisabled > a {
+  color: currentColor;
+  display: inline-block;  /* For IE11/ MS Edge bug */
+  pointer-events: none;
+  text-decoration: none;
+}
+/* ---------------------------------------------------- Program Table css ------------------------------------------------------ */
+.sessionTitle{
+	font-size:18px !important;
+	font-weight:500;
+}
+.programTable{
+	font-family:"Roboto";
+	
+}
+.programTable thead tr th{
+	line-height: 25px;
+	text-align: center;
+	font-size:16px;
+	font-weight:400;
+	padding:12px;
+	background: #E7E7FE;
+	border:1px solid #bdbbbb !important;
+}
+.programTable tr{
+	line-height: 25px;
+}
+.programTable tr td {
+	line-height: 25px;
+	font-size:15px;
+	padding:12px;
+	border:1px solid #bdbbbb;
+}
+.programTable tr td:nth-child(2) {
+text-align: center;	
+}
+.subtopic td{
+	    border-bottom: 0.5px solid #f9f9f9;
+	    border-top: 0.5px solid #f9f9f9;
+}
+.timeSlot{
+	    min-width: 155px;
+}
+.informationCard{
+	border:0px;
+	padding-bottom: .25rem!important;
+	padding-top: .25rem!important;
+}
+.profPad{
+	    padding-left: 2.3rem;
+}
+.bgInherit{
+	background:inherit !important;
+}
+.imgGallery a{
+	margin-bottom:1.6rem;
+}
